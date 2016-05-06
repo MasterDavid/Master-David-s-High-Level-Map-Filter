@@ -1,0 +1,503 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# David's High Level Map Filer
+# Store This Filer in C:\Users\""\Documents\My Games\Path of Exile as a .filter file ---------------------------------------------------------------------------------------------
+
+Show
+    ItemLevel >= 77
+    Rarity = Normal
+    BaseType "Platinum Kris" "Golden Kris" "Copper Kris" "Ambusher" "Imperial Skean"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 77
+    Rarity = Magic
+    BaseType "Platinum Kris" "Golden Kris" "Copper Kris" "Ambusher" "Imperial Skean"
+    SetTextColor 0 0 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 77
+    Rarity = Rare
+    BaseType "Platinum Kris" "Golden Kris" "Copper Kris" "Ambusher" "Imperial Skean"
+    SetTextColor 255 215 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 50
+
+Show
+    ItemLevel >= 84
+    Rarity = Rare
+    BaseType "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Imperial Buckler" "Vaal Spirit Shield" "Supreme Spiked Shield"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Imperial Buckler" "Vaal Spirit Shield" "Supreme Spiked Shield"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Vaal Regalia" "Astral Plate" "Saintly Chainmail" "Carnal Armour" "Glorious Plate" "Triumphant Lamellar" "Assassin's Garb" "Zodiac Leather" "Sadist Garb" "Blood Raiment"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+
+Show
+    ItemLevel >= 84
+    Rarity = Normal
+    BaseType "Vaal Regalia" "Astral Plate" "Saintly Chainmail" "Carnal Armour" "Glorious Plate" "Triumphant Lamellar" "Assassin's Garb" "Zodiac Leather" "Sadist Garb" "Blood Raiment"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+    PlayAlertSound 3 150
+
+Show
+    ItemLevel >= 84
+    Rarity = Normal
+    BaseType "Titan Gauntlets" "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Gloves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Titan Gauntlets" "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Gloves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+    
+Show
+    ItemLevel >= 78
+    Rarity = Normal
+    BaseType "Eternal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask" "Hubris Circlet"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+    PlayAlertSound 2 100
+
+Show
+    ItemLevel >= 78
+    Rarity = Magic
+    BaseType "Eternal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask" "Hubris Circlet"
+    SetTextColor 0 0 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 255
+    SetFontSize 50
+    PlayAlertSound 2 100
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Eternal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask" "Hubris Circlet"
+    SetTextColor 255 215 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+    PlayAlertSound 2 150
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Jewelled Foil" "Runic Hatchet" "Opal Sceptre" "Behemoth Mace" "Nightmare Mace" "Sambar Sceptre" "Gemini Claw" "Imperial Claw" "Profane Wand" "Vaal Rapier" "Imbued Wand" "Profane Wand"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+
+Show
+    ItemLevel > 82
+    Rarity = Normal
+    BaseType "Jewelled Foil" "Runic Hatchet" "Opal Sceptre" "Behemoth Mace" "Nightmare Mace" "Sambar Sceptre" "Gemini Claw" "Imperial Claw" "Profane Wand" "Vaal Rapier" "Imbued Wand" "Profane Wand"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Fleshripper" "Vaal Axe" "Void Axe" "Karui Chopper" "Thicket Bow" "Harbinger Bow" "Imperial Bow" "Terror Maul" "Coronal Maul" "Meatgrinder" "Eclipse Staff"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+
+Show
+    ItemLevel >= 83
+    Rarity = Normal
+    BaseType "Fleshripper" "Vaal Axe" "Void Axe" "Karui Chopper" "Thicket Bow" "Harbinger Bow" "Imperial Bow" "Terror Maul" "Coronal Maul" "Meatgrinder" "Eclipse Staff" "Piledriver"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 50
+
+Show
+    ItemLevel >= 75
+    Rarity = Normal
+    BaseType "Diamond Ring"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 6 150
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    BaseType "Diamond Ring"
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 45
+    PlayAlertSound 6 150
+
+Show
+    Class "Quest Items"
+
+Show
+    Class "Card"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 192 203
+    SetFontSize 45
+    PlayAlertSound 1 100
+
+# Field 1, BLOW THE FUCK UP
+Show
+    Class "Fishing Rod"
+    SetTextColor 255 0 255
+    SetFontSize 45
+    PlayAlertSound 1 79
+
+Show
+    BaseType "Mirror of Kalandra" "Rhoa Feather"
+    SetTextColor 255 0 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 0 255
+    SetFontSize 44
+    PlayAlertSound 5 300
+
+# Field 2, Currency
+Show
+    BaseType "Divine Orb" "Exalted Orb"
+    SetTextColor 74 230 58
+    SetBorderColor 0 255 0
+    SetFontSize 50
+    PlayAlertSound 5 300
+
+Show
+    BaseType "Regal Orb" "Orb of Regret" "Vaal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
+    SetTextColor 74 230 58
+    SetBorderColor 0 255 0
+    SetFontSize 45
+    PlayAlertSound 3 300
+
+Show
+    BaseType "Perandus Coin"
+    SetTextColor 210 0 0
+    SetBorderColor 0 255 0
+    SetFontSize 45
+
+# Show or hide remaining worthwhile currency.
+Show
+    BaseType "Orb of Alteration" "Orb of Chance" "Glassblower's Bauble" "Chromatic Orb" "Jeweller's Orb"
+    SetTextColor 255 0 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 0 255
+    SetFontSize 44
+
+Show
+    BaseType "Silver Key" "Golden Key" "Treasure Key"
+    SetTextColor 50 230 100
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 0
+    SetFontSize 44
+    PlayAlertSound 1 200
+
+Show
+    Class "Currency"
+
+# If someone knows how to filter corrupted 6 links message me
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 255 255 119
+    SetFontSize 45
+    PlayAlertSound 1 100
+
+Show
+    LinkedSockets = 5
+    SetTextColor 208 32 144
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 44
+    PlayAlertSound 1 100
+
+Show
+    Sockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 44
+    PlayAlertSound 1 100
+
+Show
+    SocketGroup "RGB"
+    SetBorderColor 170 170 170
+
+# Field 3, Gems
+Show
+    Class "Gem"
+    BaseType "Vaal"
+    SetBorderColor 220 30 30
+    PlayAlertSound 1 100
+
+Show
+    Quality > 0
+    Class "Gem"
+    SetBorderColor 30 150 180
+    PlayAlertSound 1 100
+
+Hide
+    Class "Gems"
+
+Show
+    DropLevel >= 75
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 4 225
+
+# Maps
+Show
+    Rarity = Normal
+    Class "Map"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 44
+
+Show
+    Rarity = Magic
+    Class "Map"
+    SetTextColor 0 0 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 44
+    
+Show
+    Rarity = Rare
+    Class "Map"
+    SetTextColor 255 215 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 44
+
+# Uniques
+Show
+    Rarity = Unique
+    SetTextColor 150 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 150 0 0
+    SetFontSize 45
+    PlayAlertSound 6 220
+
+Show
+    Rarity = Unique
+    Class "Jewel"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 0
+    SetFontSize 44
+    PlayAlertSound 1 100
+
+Show
+    Rarity = Magic
+    Class "Jewel"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+
+Show
+    Rarity = Rare
+    Class "Jewel"
+    SetTextColor 255 200 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 2 250
+
+Show
+    ItemLevel >= 60
+    Rarity = Rare
+    Class "Rings" "Amulets" "Belts"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 45
+
+# Display all regular jewelry as well
+Show
+    Rarity = Rare
+    Class "Rings" "Amulets" "Belts"
+    SetTextColor 255 220 50
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 220 50
+    SetFontSize 50
+    
+# Color border based on ilvl for recipe
+Show
+    ItemLevel < 60
+    Rarity = Rare
+    SetBorderColor 255 220 50
+
+Show
+    ItemLevel < 75
+    Rarity = Rare
+
+# 75+ items can be highlighted differently for regal recipe awareness
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    SetTextColor 255 220 50
+
+# flask
+Show
+    Quality >= 0
+    Class "Life Flasks" "Mana Flasks" "Utility Flasks"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+# Jewelry
+Show
+    ItemLevel >= 75
+    Rarity < Magic
+    Class "Rings" "Amulets" "Belts"
+    SetBorderColor 255 255 255
+    SetFontSize 50
+
+Show
+    ItemLevel >= 60
+    Rarity >= Rare
+    Class "Rings" "Amulets" "Belts"
+    SetTextColor 255 215 0
+    SetBorderColor 255 215 0
+    SetFontSize 50
+    PlayAlertSound 7 71
+
+# Chance Bases
+Show
+    Rarity = Normal
+    BaseType "Sorcerer Boots"
+    SetBorderColor 255 220 50
+    SetFontSize 43
+    PlayAlertSound 4 150
+
+# Uncomment this hide block for a much more strict filter.
+Hide
+    Rarity < Rare
+    SetBackgroundColor 128 128 128 128
+    SetFontSize 16
+
+# Fully Linked One Handers
+Hide
+    LinkedSockets = 3
+    Class "One Hand" "Claws" "Daggers" "Wands" "Sceptres" "Shields"
+
+Show
+    LinkedSockets >= 4
+
+# Corrupted Items with white sockets
+Show
+    Sockets >= 3
+    SocketGroup "W"
+
+# Quality Items
+Hide
+    Quality = 20
+
+# Can be more specific in these areas but currently only the few highest tiers of items will drop
+Hide
+    DropLevel >= 56
+    Class "One Hand" "Two Hand" "Claws" "Daggers" "Wands" "Sceptres" "Bows" "Staves"
+
+Hide
+    DropLevel >= 62
+    Rarity < Rare
+    Class "Helmets"
+
+Hide
+    DropLevel >= 66
+    Rarity < Rare
+    Class "Gloves"
+
+Hide
+    DropLevel >= 64
+    Rarity < Rare
+    Class "Boots"
+
+Hide
+    DropLevel >= 62
+    Rarity < Rare
+    Class "Body Armours"
+
+Hide
+    DropLevel >= 59
+    Rarity < Rare
+    Class "Shields"
+
+# Show all items until middle of cruel as every base is potentially useful at some point
+Hide
+    Sockets >= 4
+
+Hide
+    ItemLevel < 40
+    Sockets >= 3
+
+Hide
+    ItemLevel < 60
+    Rarity < Rare
+    Class "Rings" "Amulets" "Belts"
+    SetBorderColor 255 255 255
+
+# If you�re leveling, every item is useful
+Hide
+    ItemLevel < 40
+
+# Field 8, Exceptions
+Hide
+    BaseType "Kris" "Quartz Sceptre" "Crystal Sceptre" "Opal Sceptre"
+
+# Because who doesn�t like to see insanely high ilvl simple robes and iron hats?
+Show
+    ItemLevel > 77
+    DropLevel <= 6
+
+Show
+    SetBackgroundColor 128 128 128 128
+    SetFontSize 16
+
